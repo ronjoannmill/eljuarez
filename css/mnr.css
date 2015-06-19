@@ -1,0 +1,181 @@
+a.menu:link    {
+  /* Applies to unvisited links of class mainNav */
+  text-decoration:  none;
+  font-weight: 200;
+  /*background-color: #ddd;*/
+  color:            #FF0000;
+  } 
+a.menu:visited {
+  /* Applies to visited links of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: #ddd;*/
+  color:            #FF0000;
+  } 
+a.menu:hover   {
+  /* Applies to links under the pointer of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: blue;*/
+  color:            #FFF000;
+  } 
+a.menu:active  {
+  /* Applies to activated links of class mainNav */
+  text-decoration:  underline;
+  font-weight:      200;
+  /*background-color: black;*/
+  color: white;
+  } 
+a.link:link    {
+  /* Applies to unvisited links of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: #ddd;*/
+  color:            #2A0000;
+  } 
+a.link:visited {
+  /* Applies to visited links of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: #ddd;*/
+  color:            #2A0000;
+  } 
+a.link:hover   {
+  /* Applies to links under the pointer of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: blue;*/
+  color: #FFF000;
+  } 
+a.link:active  {
+  /* Applies to activated links of class mainNav */
+  text-decoration:  underline;
+  font-weight:      200;
+  /*background-color: black;*/
+  color: white;
+  } 
+a.drklink:link    {
+  /* Applies to unvisited links of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: #ddd;*/
+  color:            #2A0000;
+  } 
+a.drklink:visited {
+  /* Applies to visited links of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: #ddd;*/
+  color:            #2A0000;
+  } 
+a.drklink:hover   {
+  /* Applies to links under the pointer of class mainNav */
+  text-decoration:  none;
+  font-weight:      200;
+  /*background-color: blue;*/
+  color: #F00000;
+  } 
+a.drklink:active  {
+  /* Applies to activated links of class mainNav */
+  text-decoration:  underline;
+  font-weight:      200;
+  /*background-color: black;*/
+  color: white;
+  } 
+body { 
+	position: relative; 
+	background-color:#FFFFAA; 
+	display:block; 
+	text-align:center;
+ 	font-family: "Times New Roman", Times, serif; 
+	width:100%;
+}
+#global {
+	background:url(../Images/mnrbackground1.gif); 
+	background-repeat:no-repeat; 
+	border-style:none; 
+     position:absolute;
+     left: 50%; 
+     top: 50%;
+     width: 800px;
+     height: 600px;
+     margin-left: -400px; /* half of the width */
+     border: 1px solid #000;
+}
+div.main { 
+	background:url(../Images/BG2.jpg); 
+	background-repeat:no-repeat; 
+	border-style:none; 
+	border:none; 
+	width:800px; 
+	height:600px; 
+    position:absolute;
+    left: 50%; 
+    top: 50%;
+	max-height:600px; 
+	max-width:800px; 
+    margin-left: -400px; /* half of the width */
+	margin-right:auto; 
+	text-align:left;
+}
+div.body { 
+	position:absolute; 
+	left:125px; 
+	top:120px; 
+	max-height:450px; 
+	max-width:700px; 
+	margin: 0 auto; 
+	text-align:left;
+}
+div.header { 
+	position:absolute; 
+	left:120px; 
+	top:0px; 
+	max-height:115px; 
+	max-width:680px; 
+	margin: 0 auto; 
+	text-align:left; 
+	padding-left:10px;
+}
+div.menu { 
+	font-family: "Times New Roman", Times, serif; 
+	font-size:10px;
+	color: #FF0000;
+	width: 690px;
+	max-height:80px; 
+	max-width: 690px; 
+	text-align:center; 
+	padding-bottom:10px;
+}
+div.footer { 
+ 	font-family: "Times New Roman", Times, serif; 
+	font-size:9px; 
+	color: #2A0000;
+	width: 690px;
+	max-height:80px; 
+	max-width: 690px; 
+	text-align:center; 
+	padding-top:10px;
+}
+div.content {
+	font-family: "Times New Roman", Times, serif; 
+	font-size:11px;
+	width: 670px;
+	max-width: 670px; 
+	height:390px; 
+	text-align:left; 
+	overflow: auto; 
+	white-space:normal;
+}
+span.announce { 
+	font-family: "Times New Roman", Times, serif; 
+	text-align:center; 
+	font-size:24px;
+}
+td {
+	font-family: "Times New Roman", Times, serif;
+}
+
+th {
+	font-family: "Times New Roman", Times, serif;
+}
