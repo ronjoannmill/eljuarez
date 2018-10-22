@@ -1,8 +1,8 @@
 <a id="Top"></a>
 <img src="./images/eljuarez.gif" border="none" align="absmiddle" width="800" />
-<table width="800" border="0" align="center">
+<table width="800" border="0" align="center" style="border: none;">
 	<tr>
-		<td colspan="2" style="text-align:center">
+		<td colspan="2" style="text-align:center" style="border: none;">
 		<cfif #session.language# eq "SP">
 			<a href="default.cfm?action=home&lang=SP"><font class=menufont>Inicio</font></a>
 			<font color="#cc0000">| </font>
@@ -26,7 +26,7 @@
 	</tr>
 	<tr>
 		<td align="left">&nbsp;</td>
-		<td style="text-align:right"><cfoutput>#mdate#</cfoutput>
+		<td style="text-align:right" style="border: none;"><cfoutput>#mdate#</cfoutput>
 		</td>
 	</tr>
 </table>

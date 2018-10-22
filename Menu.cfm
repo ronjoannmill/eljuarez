@@ -17,7 +17,8 @@
 <br>
 <p align="center">Menu</p>
 <cfoutput>
-<cfloop query="getclass">
+	<cflocation url="/eljuarez/images/juarezmenu1.pdf" addtoken="false">
+<!--- <cfloop query="getclass">
 	<cfquery name="getlist" dbtype="query">
 		select * from getmenuitems where getmenuitems.class = #getclass.id#
 	</cfquery>
@@ -45,5 +46,5 @@
 					</a><br>
 					<br>
 			</p>
-</cfloop>
+</cfloop> --->
 </cfoutput>

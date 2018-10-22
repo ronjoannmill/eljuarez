@@ -25,8 +25,8 @@
 <cfset request.customtagRoot = "CustomTags">
 <cfset request.imageRoot = "./Images/">
 <cfset request.language = "EN">
-<cfset request.lastupdateEN = "09/05/2014">
-<cfset request.lastupdateSP = "05.09.2014">
+<cfset request.lastupdateEN = "11/13/2015">
+<cfset request.lastupdateSP = "13.11.2015">
 <cfset request.error_mail = "ron@millsclan.com">
 <cfset request.emailNotificationAddress = "yasmin.vela2@yahoo.com">
 

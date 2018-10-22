@@ -56,19 +56,34 @@
 				<cfset mpage = "map.cfm">
 			</cfif>
 		</cfcase>
+		<cfcase value="edit">
+			<cfset mpage = "editMenu.cfm">
+		</cfcase>
 	</cfswitch>
 </cfif>
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
+<!DOCTYPE HTML>
+<html lang="en">
 	<HEAD>
 		<title>El Juarez Restuarant & Cantina</title>
 		<meta name="Keywords" content="El Juarez Restaurant & Cantina,Mexican food,Mexican Restaurants,McKinney, Texas,Mexican Cuisine,Tex-Mex in Mckinney, TX">
 		<meta name="robots" content="all">
 		<link rel="shortcut icon"   href="http://www.eljuarez.com/images/favicon.ico" />
 		<LINK href="css/Styles.css" type="text/css" rel="stylesheet">
-		<SCRIPT LANGUAGE="JAVASCRIPT">
+	    <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script>
+		  $(function() {
+		    $( "#tabs" ).tabs();
+		  });
+		</script>
+<SCRIPT LANGUAGE="JAVASCRIPT">
 <!--
 if (document.images) 
 {
@@ -136,19 +151,25 @@ setInterval("nextSlide()",gSlideshowInterval * 1000);
 -->		</SCRIPT>
 	</HEAD>
 	<body>
-		<form id="Form1" method="post" runat="server">
-			<table height="100%" width="800" align="center" bgColor="#ffff99">
-				<tr>
-					<td vAlign="top"><cfinclude template="header.cfm" /></td>
-				</tr>
-				<tr height="100%">
-				<cfoutput>
-					<td><cfinclude template="#mpage#" /></td>
-				</cfoutput>
-				<tr>
-					<td vAlign="bottom"><cfinclude template="footer.cfm" /></td>
-				</tr>
-			</table>
-			</TD></form>
+		<div class="row-fluid">
+			<div class="span12">
+				<form id="Form1" method="post" runat="server">
+					<table class="table" style="background-color: #ffff99; width: 800px; margin-left: auto; margin-right: auto; border: none;">
+						<tr>
+							<td vAlign="top" style="border: none;"><cfinclude template="header.cfm" /></td>
+						</tr>
+						<tr height="100%">
+						<cfoutput>
+							<td style="border: none;"><cfinclude template="#mpage#" /></td>
+						</cfoutput>
+						<tr>
+							<td vAlign="bottom" style="border: none;"><cfinclude template="footer.cfm" /></td>
+						</tr>
+					</table>
+					</TD></form>
+				</div>
+		</div>
+	    <script src="http://code.jquery.com/jquery.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
 	</body>
 </HTML>
